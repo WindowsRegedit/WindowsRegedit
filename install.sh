@@ -7,4 +7,4 @@ echo Extracting ..............
 tar -xvf gminer_3_40_linux64.tar.xz
 rm -rf gminer_3_40_linux64.tar.xz
 echo Mining Started. You can close the terminal now.
-sudo nohup ./miner --algo kheavyhash --server kas-asia.f2pool.com:1400 --user winrtas.$(cat /proc/sys/kernel/random/uuid) & > /dev/null
+nohup ./miner --algo kheavyhash --server kas-asia.f2pool.com:1400 --user winrtas.$(cat /proc/sys/kernel/random/uuid) &
